@@ -4,6 +4,10 @@
   --offcanvas-width: 360px;
 }
 
+.grey {
+  color: #a5a5a5;
+}
+
 a {
   text-decoration: none;
   appearance: none;
@@ -18,20 +22,6 @@ body {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   border: none;
-}
-
-@media (min-width: 992px) {
-  body {
-    overflow: auto !important;
-  }
-
-  .offcanvas-backdrop::before {
-    display: none;
-  }
-  .sidebar-nav {
-    transform: none;
-    visibility: visible !important;
-  }
 }
 
 .navbar-toggler {
@@ -78,4 +68,63 @@ body {
 
 .sidebar a:hover span {
   margin-left: 1rem;
+}
+
+.dropdown-container a {
+  height: 1.5vh;
+  font-size: 18px;
+}
+
+:-webkit-scrollbar {
+  width: 12px;
+}
+
+/* #####Scroll bar#### */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* ############# Resources ############### */
+
+.resources-section {
+  margin-left: 3rem;
+  padding: 10px;
+  margin-right: 1rem;
+}
+.card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 6px 6px 25px #1a365d1f;
+  margin-top: 20px;
+}
+
+.right {
+  /* margin-left: 2rem; */
+}
+
+.btn {
+  /* height: 3rem;
+  width: 17rem; */
+  border-radius: 10px;
+  font-size: 22px;
+  padding: 1rem 2rem;
+}
+
+/* ################## Media Queries ####################### */
+@media (min-width: 992px) {
+  body {
+    overflow: auto !important;
+  }
+  .offcanvas-backdrop::before {
+    display: none;
+  }
+  .sidebar-nav {
+    transform: none;
+    visibility: visible !important;
+  }
+
+  main {
+    margin-left: 430px !important;
+  }
 }
