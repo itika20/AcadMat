@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  --offcanvas-width: 300px;
+}
+
+.grey {
+  color: #a5a5a5;
+}
+
+a {
+  text-decoration: none;
+  appearance: none;
+}
+
+body {
+  background-color: #f4f5f7;
+}
+
+.sidebar-nav {
+  width: var(--offcanvas-width);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: none;
+}
+
+.navbar-toggler {
+  background-color: none;
+  border: none;
+  border-radius: 0;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* ######Side Bar######### */
+.sidebar h4 {
+  font-weight: 500;
+}
+
+.sidebar a {
+  margin-left: 1rem;
+  gap: 1rem;
+  align-items: center;
+  position: relative;
+  height: 3.9rem;
+  transition: all 300ms ease;
+}
+
+.sidebar a span {
+  transition: all 300ms ease;
+}
+
+.sidebar a.active {
+  background: transparent linear-gradient(270deg, #fff1e1 0%, #e29948 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 6px;
+  margin-left: 0;
+}
+
+.sidebar a.active span {
+  margin-left: 1rem;
+}
+
+.sidebar a:hover span {
+  margin-left: 1rem;
+}
+
+.dropdown-container a {
+  height: 1.5vh;
+  font-size: 18px;
+}
+
+:-webkit-scrollbar {
+  width: 12px;
+}
+
+/* #####Scroll bar#### */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+.main-section {
+  margin-left: 3rem;
+  padding: 10px;
+  margin-right: 1rem;
+}
+.card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 6px 6px 25px #1a365d1f;
+  margin-top: 20px;
+}
+
+.contact-box {
+  margin-top: 0 !important;
+}
+
+.btn {
+  border-radius: 10px;
+  font-size: 22px;
+  padding: 1rem 2rem;
+}
+
+.text {
+  border: none;
+  border-radius: 50%;
+  padding: 0.7rem;
+}
+
+.material-icons-round {
+  text-align: end !important;
+  padding-right: 2rem;
+}
+
+.t1 {
+  margin-top: 3%;
+}
+
+.dp {
+  width: 2em;
+}
+
+.name {
+  display: inline;
+  margin-right: 4%;
+  font: normal normal 1em Poppins;
+}
+
+.posttime {
+  color: grey;
+  display: inline;
+  font: normal normal 0.8em Poppins;
+}
+
+.query {
+  margin-left: 8%;
+  font: normal normal 0.8em Poppins;
+}
+
+.today {
+  display: flex;
+  align-items: center;
+}
+.today .date {
+  padding: 1em 0.2rem;
+  font: normal normal 18px/27px Poppins;
+  /* creates the space */
+}
+
+.today .line {
+  flex: 1;
+  height: 3px;
+  background-color: #000;
+  border-radius: 20rem;
+  margin: 0 1%;
+}
+
+.nameonof {
+  margin-left: 5%;
+}
+
+/* ################## Media Queries ####################### */
+@media (min-width: 992px) {
+  body {
+    overflow: auto !important;
+  }
+  .offcanvas-backdrop::before {
+    display: none;
+  }
+  .sidebar-nav {
+    transform: none;
+    visibility: visible !important;
+  }
+
+  main {
+    margin-left: 370px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+}
