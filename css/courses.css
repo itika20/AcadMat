@@ -94,24 +94,15 @@ body {
 }
 .card {
   border: none;
-  border-radius: 1rem;
+  border-radius: 2rem;
   box-shadow: 6px 6px 25px #1a365d1f;
   margin-top: 20px;
+  height: 100%;
 }
 
-.contact-box {
-  margin-top: 0 !important;
-}
-
-.btn {
-  border-radius: 10px;
-  font-size: 22px;
-  padding: 1rem 2rem;
-}
-
-.date {
-  text-align: end !important;
-  padding-right: 2rem;
+.card-header {
+  border-radius: 2rem 2rem 0rem 0rem !important;
+  height: 40%;
 }
 
 /* ################## Media Queries ####################### */
@@ -133,7 +124,7 @@ body {
 }
 
 @media (max-width: 767.98px) {
-  .resource {
-    flex-direction: row;
+  .column {
+    flex-direction: column;
   }
 }
