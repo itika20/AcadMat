@@ -1,104 +1,108 @@
 @import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+::-webkit-scrollbar {
+    width: 5px;
+}
+
 body {
-  background-color: #f4f5f7;
+    background-color: #f4f5f7;
 }
 
 .acadmat {
-  margin: 1rem;
-  font-weight: bold;
+    margin: 1rem;
+    font-weight: bold;
 }
 
 a {
-  text-decoration: none;
-  appearance: none;
+    text-decoration: none;
+    appearance: none;
 }
 
 input {
-  outline: none;
+    outline: none;
 }
 
 .both {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .photoAndDes {
-  display: flex;
-  margin-left: 7rem;
-  flex-direction: column;
-  width: 55vw;
+    display: flex;
+    margin-left: 7rem;
+    flex-direction: column;
+    width: 55vw;
 }
 
 .des h1 {
-  font-size: 4rem;
+    font-size: 4rem;
 }
 
 .photo {
-  /* width: 90%; */
-  border-radius: 2em;
+    /* width: 90%; */
+    border-radius: 2em;
 }
 
 .login {
-  border-radius: 1.3rem;
-  box-shadow: 9px 7px 40px #80808029;
-  width: 25%;
+    border-radius: 1.3rem;
+    box-shadow: 9px 7px 40px #80808029;
+    width: 25%;
 }
 
 .firstname,
 .email,
 .pass {
-  margin-left: 7%;
-  margin-right: 5%;
-  width: 40%;
-  margin-bottom: 13%;
-  text-align: left;
-  font: normal normal normal 19px/29px Poppins;
-  font-size: 100%;
-  display: inline-block;
-  padding: 0%;
-  border: #f4f5f7;
-  border-bottom: #272727 2px solid;
+    margin-left: 7%;
+    margin-right: 5%;
+    width: 40%;
+    margin-bottom: 13%;
+    text-align: left;
+    font: normal normal normal 19px/29px Poppins;
+    font-size: 100%;
+    display: inline-block;
+    padding: 0%;
+    border: #f4f5f7;
+    border-bottom: #272727 2px solid;
 }
 
 .email,
 .pass {
-  width: 86%;
+    width: 86%;
 }
 
 .lastname {
-  width: 40%;
-  text-align: left;
-  font: normal normal normal 19px/29px Poppins;
-  font-size: 100%;
-  display: inline-block;
-  padding: 0%;
-  border: #f4f5f7;
-  border-bottom: #272727 2px solid;
+    width: 40%;
+    text-align: left;
+    font: normal normal normal 19px/29px Poppins;
+    font-size: 100%;
+    display: inline-block;
+    padding: 0%;
+    border: #f4f5f7;
+    border-bottom: #272727 2px solid;
 }
 
 .signin {
-  width: 10vw;
-  height: 6vh;
-  border-radius: 0.5rem;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 0.5rem;
 }
 
 .textsignin {
-  font: normal normal normal 22px/33px Poppins;
-  font-size: medium;
+    font: normal normal normal 22px/33px Poppins;
+    font-size: medium;
 }
 
 .or {
-  margin: 12%;
-  font: normal normal normal 19px/29px Poppins;
-  font-size: medium;
+    margin: 12%;
+    font: normal normal normal 19px/29px Poppins;
+    font-size: medium;
 }
 
 .alreadylogin {
-  font: normal normal medium 19px/29px Poppins;
+    font: normal normal medium 19px/29px Poppins;
 }
 
 .btn {
-  border-radius: 10px;
-  font-size: 22px;
-  padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 1rem 2rem;
 }

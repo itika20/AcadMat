@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+ :root {
+    --offcanvas-width: 300px;
+}
+
+.grey {
+    color: #a5a5a5;
+}
+
+a {
+    text-decoration: none;
+    appearance: none;
+}
+
+body {
+    background-color: #f4f5f7;
+}
+
+.sidebar-nav {
+    width: var(--offcanvas-width);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+}
+
+.navbar-toggler {
+    background-color: none;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+/* ######Side Bar######### */
+
+.sidebar h4 {
+    font-weight: 500;
+}
+
+.sidebar a {
+    margin-left: 1rem;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+    height: 3.9rem;
+    transition: all 300ms ease;
+}
+
+.sidebar a span {
+    transition: all 300ms ease;
+}
+
+.sidebar a.active {
+    background: transparent linear-gradient(270deg, #fff1e1 0%, #e29948 100%) 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    margin-left: 0;
+}
+
+.sidebar a.active span {
+    margin-left: 1rem;
+}
+
+.sidebar a:hover span {
+    margin-left: 1rem;
+}
+
+.dropdown-container a {
+    height: 1.5vh;
+    font-size: 18px;
+}
+
+ :-webkit-scrollbar {
+    width: 12px;
+}
+
+
+/* #####Scroll bar#### */
+
+ ::-webkit-scrollbar {
+    width: 5px;
+}
+
+.main-section {
+    margin-left: 3rem;
+    padding: 10px;
+    margin-right: 1rem;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 6px 6px 25px #1a365d1f;
+    margin-top: 20px;
+}
+
+.contact-box {
+    margin-top: 0 !important;
+}
+
+.btn {
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 1rem 2rem;
+}
+
+.text {
+    border: none;
+    border-radius: 50%;
+    padding: 0.7rem;
+}
+
+.material-icons-round {
+    text-align: end !important;
+    padding-right: 2rem;
+}
+
+.t1 {
+    margin-top: 3%;
+}
+
+
+/* ################## Media Queries ####################### */
+
+@media (min-width: 992px) {
+    body {
+        overflow: auto !important;
+    }
+    .offcanvas-backdrop::before {
+        display: none;
+    }
+    .sidebar-nav {
+        transform: none;
+        visibility: visible !important;
+    }
+    main {
+        margin-left: 370px !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .onofsection {
+        display: none;
+    }
+}
+
+
+/* MAIN DASHBOARD CSS */
+
+.hiwel {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 370px;
+    flex-direction: column;
+}
+
+.hellouser {
+    margin-top: 0.4em;
+    font: normal normal 600 42px/63px Poppins;
+    letter-spacing: 0px;
+    color: #1A365D;
+    opacity: 1;
+}
+
+.welcome {
+    color: var(--unnamed-color-1a365d);
+    font: normal normal normal 24px/35px Poppins;
+    letter-spacing: 0px;
+    color: #1A365D;
+    opacity: 1;
+}
+
+.ultramain {
+    display: flex;
+}
+
+main {
+    width: 70vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.div1 {
+    display: flex;
+    height: 45vh;
+}
+
+.semmarks {
+    width: 35vw;
+    height: 45vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 25px #1A365D1F;
+    border-radius: 40px;
+    opacity: 1;
+}
+
+.div1p2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 4%;
+    width: 15vw;
+    height: 45vh;
+}
+
+.coursesenrolled {
+    width: 20vw;
+    height: 21vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 25px #1A365D1F;
+    border-radius: 40px;
+    opacity: 1;
+}
+
+.curgp {
+    width: 20vw;
+    height: 21vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 25px #1A365D1F;
+    border-radius: 40px;
+    opacity: 1;
+}
+
+.subtimeline {
+    width: 58vw;
+    height: 48vh;
+    margin-top: 4%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 25px #1A365D1F;
+    border-radius: 40px;
+    opacity: 1;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sched {
+    width: 21vw;
+    height: 49vh;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 25px #1A365D1F;
+    border-radius: 40px;
+    opacity: 1;
+}
+
+.upsubmis {
+    width: 21vw;
+    height: 36vh;
+    margin-top: 5%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 25px #1A365D1F;
+    border-radius: 40px;
+    opacity: 1;
+}
+
+img {
+    margin: 3em 1.5em;
+    width: 95%;
+}
+
+.img2 {
+    margin: 2em;
+    width: 85%;
+}
