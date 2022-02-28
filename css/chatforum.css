@@ -165,6 +165,10 @@ body {
   margin-left: 5%;
 }
 
+.type input {
+  outline: none;
+}
+
 /* ################## Media Queries ####################### */
 @media (min-width: 992px) {
   body {
@@ -184,4 +188,7 @@ body {
 }
 
 @media (max-width: 767.98px) {
+  .onofsection {
+    display: none;
+  }
 }
